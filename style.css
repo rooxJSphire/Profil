@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    color: #E0E0E0;
+}
+.font-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+.text-js-yellow {
+    color: #F7DF1E;
+}
+.bg-js-yellow {
+    background-color: #F7DF1E;
+}
+.border-js-yellow {
+    border-color: #F7DF1E;
+}
+.bg-dark-card {
+    background-color: #1A1A1A;
+}
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #333;
+}
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px -5px rgba(247, 223, 30, 0.15);
+    border-color: #F7DF1E;
+}
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #F7DF1E;
+    transition: width 0.3s;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+.section-header h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+.section-header::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #333333;
+}
